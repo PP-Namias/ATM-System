@@ -45,12 +45,12 @@ while (num_of_tries != 0):
         while (True):
             print(" ___________________________________________________________ ")
             print("\t\t\tMAIN MENU")                                        
-            print("\t\t  (1) Balance Inquiry")                              
-            print("\t\t  (2) Withdrawal")                                   
-            print("\t\t  (3) Deposit")                                      
-            print("\t\t  (4) Change PIN")                                   
-            print("\t\t  (5) Return Card")
-            print("\t\t  (6) Logout and Exit")
+            print("\t\t  [1] Balance Inquiry")                              
+            print("\t\t  [2] Withdrawal")                                   
+            print("\t\t  [3] Deposit")                                      
+            print("\t\t  [4] Change PIN")                                   
+            print("\t\t  [5] Return Card")
+            print("\t\t  [6] Logout and Exit")
             print(" ___________________________________________________________ ")
 
             choice = int(input("Choose a number in Main Menu to proceed: "))
