@@ -19,7 +19,7 @@ with open("account.txt", "r") as f:
         accounts.append(account)
 
 while (num_of_tries != 0):
-    print(" *********************************************************** ")
+    print("\n *********************************************************** ")
     print(" *                                                         * ")
     print(" *                          ATM                            * ")
     print(" *                                                         * ")
@@ -38,7 +38,11 @@ while (num_of_tries != 0):
         i += 1
 
     if account:
-        print(" ************************** ATM **************************** ")
+        print(" *********************************************************** ")
+        print(" *                                                         * ")
+        print(" *                          ATM                            * ")
+        print(" *                                                         * ")
+        print(" *********************************************************** ")
         print("\t""Welcome to your Bank Account", account['name'], end="\n\n")
         choice = 9
 
