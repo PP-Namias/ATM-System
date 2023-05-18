@@ -8,6 +8,11 @@ num_of_tries = 5
 accounts = []
 account_position = None 
 
+if not os.path.exists("accounts.txt"):
+    print("Creating accounts file...")
+    with open("accounts.txt", "w") as f: # if we can't find accounts.txt, then create it!
+        f.close()
+
 with open("account.txt", "r") as f:
     for line in f:
         pin, balance, name = ', '.join(line.strip().split('\n')).split(', ')
